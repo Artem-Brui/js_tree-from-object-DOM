@@ -1,0 +1,2 @@
+var e,t,n;e={Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}},(t=document.querySelector("#tree")||document.createElement("div")).id="tree",document.body.appendChild(t),n=function e(t){var n=document.createElement("ul");for(var r in t){var a=document.createElement("li");a.textContent=r,n.appendChild(a);var d=t[r],i=Object.keys(d);if("object"==typeof d&&i.length){var l=e(d);a.appendChild(l)}}return n}(e),t.appendChild(n);
+//# sourceMappingURL=index.5f4c7392.js.map
